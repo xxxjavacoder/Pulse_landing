@@ -1,0 +1,57 @@
+@media (max-width: 922px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+
+        &__header {
+            font-size: 35px;
+        }
+
+        &__subheader {
+            font-size: 15px;
+        }
+    }
+
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__item {
+
+            &:not(:first-child){
+                margin-top: 15px;
+            }
+        }
+    }
+
+    .consultation {
+        .title {
+            &--left {
+                text-align: center;
+                font-size: 18px;
+            }
+        }
+
+        &__descr {
+            text-align: center;
+        }
+
+        .feed-form {
+            margin: 20px auto 0 auto;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+
+        &__offical,
+        &__contacts {
+            margin-top: 10px;
+        }
+    }
+}
