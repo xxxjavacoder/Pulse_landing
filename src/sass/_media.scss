@@ -54,4 +54,14 @@
             margin-top: 10px;
         }
     }
+
+    .carousel__inner {
+        width: 450px;
+
+        .slick-slide {
+            img {
+                width: 450px;
+            }
+        }
+    }
 }
