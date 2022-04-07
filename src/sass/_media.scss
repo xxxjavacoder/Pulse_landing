@@ -64,4 +64,19 @@
             }
         }
     }
+
+    .feedback {
+        &__item {
+            flex-direction: column;
+        }
+
+        &__block {
+            padding: 10px 20px 0 20px;
+            text-align: center;
+        }
+
+        &__img {
+            padding: 0 20px 10px 20px;
+        }
+    }
 }

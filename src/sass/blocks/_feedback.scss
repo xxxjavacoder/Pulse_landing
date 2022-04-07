@@ -1,0 +1,51 @@
+.feedback {
+    padding-bottom: 50px;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+
+    &__img {
+        width: 170px;
+        padding: 0 10px 0 20px;
+    }
+
+    &__block {
+        display: inline-block;
+        max-width: 680px;
+        padding: 0 20px 0 10px;
+    }
+
+    &__name,
+    &__count,
+    &__descr {
+        display: block;
+    }
+
+    &__name {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    &__count {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+        line-height: 22px;
+    }
+
+    &__descr {
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 16px;
+        color: #0D0D0D;
+
+        &--br {
+            display: block;
+            margin-top: 10px;
+        }
+    }
+}
