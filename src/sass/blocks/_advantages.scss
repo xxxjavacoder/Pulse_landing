@@ -41,4 +41,23 @@
         color: $main-color;
         text-decoration: underline;
     }
+
+    .pulse-animation {
+        animation-name: heart;
+        animation-duration: 2s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+
+        &--delay_04s {
+            animation-delay: 0.4s;
+        }
+
+        &--delay_08s {
+            animation-delay: 0.8s;
+        }
+
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
 }

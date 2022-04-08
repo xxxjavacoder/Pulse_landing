@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="bootstrap-4.6.1-dist/css/bootstrap-reboot.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
     <link rel="stylesheet" href="css/style.min.css">
     <title>Pulse</title>
 </head>
@@ -62,7 +63,7 @@
             <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advantages__wrapper">
                 <div class="advantages__item">
-                    <div class="advantages__icon">
+                    <div class="advantages__icon  pulse-animation">
                         <img src="icons/cup.png" alt="">
                     </div>
                     <div class="advantages__title">
@@ -74,7 +75,7 @@
                     </div>
                 </div>
                 <div class="advantages__item">
-                    <div class="advantages__icon">
+                    <div class="advantages__icon pulse-animation pulse-animation--delay_04s">
                         <img src="icons/heart.png" alt="">
                     </div>
                     <div class="advantages__title">
@@ -86,7 +87,7 @@
                     </div>
                 </div>
                 <div class="advantages__item">
-                    <div class="advantages__icon">
+                    <div class="advantages__icon pulse-animation pulse-animation--delay_08s">
                         <img src="icons/shoe.png" alt="">
                     </div>
                     <div class="advantages__title">
@@ -389,7 +390,7 @@
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
 
-            <div class="feedback__item">
+            <div data-wow-delay="1s" class="feedback__item wow animate__animated animate__fadeInUp">
                 <img src="img/photo_1.png" alt="Ирина Иванченко" class="feedback__img">
                 <div class="feedback__block">
                     <span class="feedback__name">Ирина Иванченко</span>
@@ -402,7 +403,7 @@
                 </div>
             </div>
             
-            <div class="feedback__item">
+            <div data-wow-delay="1s" class="feedback__item wow animate__animated animate__fadeInUp">
                 <img src="img/photo_2.png" alt="Иван Сёмочкин" class="feedback__img">
                 <div class="feedback__block">
                     <span class="feedback__name">Иван Сёмочкин</span>
@@ -416,7 +417,7 @@
                 </div>
             </div>
 
-            <div class="feedback__item">
+            <div data-wow-delay="1s" class="feedback__item wow animate__animated animate__fadeInUp">
                 <img src="img/photo_3.png" alt="Юлия Дашкина" class="feedback__img">
                 <div class="feedback__block">
                     <span class="feedback__name">Юлия Дашкина</span>
@@ -501,6 +502,7 @@
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
