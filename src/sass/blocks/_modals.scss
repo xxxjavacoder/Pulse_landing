@@ -1,0 +1,66 @@
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, $alpha: .6);
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    min-height: 400px;
+    background-color: gainsboro;
+    padding: 40px;
+
+    .feed-form {
+        width: 100%;
+    }
+
+    &__close {
+        position: absolute;
+        top: 0;
+        right: -40px;
+        font-size: 40px;
+        line-height: 41px;
+        color: $main-color;
+        cursor: pointer;
+    }
+
+    &__subtitle {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    &__descr {
+        color: #0d0d0d;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    &--mini {
+        min-height: 140px;
+    }
+
+    input.error {
+        border: 1px solid red;
+    }
+
+    label.error {
+        margin-bottom: 15px;
+        color: red;
+    }
+}
+
+#consultation,
+#order,
+#thanks {
+    display: none;
+}

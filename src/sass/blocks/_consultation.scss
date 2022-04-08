@@ -10,4 +10,13 @@
         text-align: left;
         margin-top: 8px;
     }
+
+    input.error {
+        border: 1px solid red;
+    }
+
+    label.error {
+        margin-bottom: 15px;
+        color: red;
+    }
 }

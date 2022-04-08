@@ -4,6 +4,10 @@
     flex-direction: column;
     width: 300px;
 
+    &--mt25 {
+        margin-top: 25px;
+    }
+
     input {
         height: 54px;
         left: 0px;
